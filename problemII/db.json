@@ -1,0 +1,91 @@
+[
+    {
+      "id": 1,
+      "name": "Product 1",
+      "company": "Company A",
+      "category": "Electronics",
+      "price": 199.99,
+      "discount": 10,
+      "rating": 4.5,
+      "availability": true,
+      "description": "A detailed description of product 1."
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "company": "Company B",
+      "category": "Clothing",
+      "price": 49.99,
+      "discount": 5,
+      "rating": 4.2,
+      "availability": true,
+      "description": "A comfortable and stylish shirt."
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "company": "Company C",
+      "category": "Homeware",
+      "price": 79.95,
+      "discount": 0,
+      "rating": 4.8,
+      "availability": false,
+      "description": "A high-quality kitchen appliance."
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "company": "Company D",
+      "category": "Sports",
+      "price": 129.99,
+      "discount": 15,
+      "rating": 4.7,
+      "availability": true,
+      "description": "Durable and reliable sports equipment."
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "company": "Company E",
+      "category": "Beauty",
+      "price": 34.99,
+      "discount": 8,
+      "rating": 4.1,
+      "description": "A luxurious and effective skincare product."
+    },
+    
+    {
+      "id": 6,
+      "name": "Book 1",
+      "company": "Publisher A",
+      "category": "Books",
+      "price": 24.99,
+      "discount": 0,
+      "rating": 4.3,
+      "availability": true,
+      "description": "An engaging and thought-provoking novel."
+    },
+    {
+      "id": 7,
+      "name": "Toy Set 1",
+      "company": "Toymaker Inc.",
+      "category": "Toys",
+      "price": 39.99,
+      "discount": 10,
+      "rating": 4.8,
+      "availability": true,
+      "description": "A fun and educational toy set for children."
+    },
+    {
+      "id": 8,
+      "name": "Headphones 1",
+      "company": "Audio Tech",
+      "category": "Electronics (Audio)", 
+      "price": 99.99,
+      "discount": 5,
+      "rating": 4.6,
+      "availability": true,
+      "description": "High-fidelity headphones for immersive listening."
+    }
+  ]
+  
