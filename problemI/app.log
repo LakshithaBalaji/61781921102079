@@ -1,0 +1,32 @@
+2024-06-04 18:14:36,065 ERROR: Error fetching numbers from Test Server API [in C:\Users\rames\Desktop\pyapp\app.py:37]
+2024-06-04 18:14:36,067 ERROR: Exception on /numbers/e [GET] [in C:\Users\rames\anaconda3\envs\tf\lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\rames\anaconda3\envs\tf\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\rames\anaconda3\envs\tf\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\rames\anaconda3\envs\tf\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\rames\anaconda3\envs\tf\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\rames\Desktop\pyapp\app.py", line 89, in get_numbers
+    response = process_request(number_id)
+  File "C:\Users\rames\Desktop\pyapp\app.py", line 59, in process_request
+    numbers = [num for num in numbers if isinstance(num, (int, float))]
+UnboundLocalError: local variable 'numbers' referenced before assignment
+2024-06-04 18:14:49,668 ERROR: Error fetching numbers from Test Server API [in C:\Users\rames\Desktop\pyapp\app.py:37]
+2024-06-04 18:14:49,669 ERROR: Exception on /numbers/e [GET] [in C:\Users\rames\anaconda3\envs\tf\lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\rames\anaconda3\envs\tf\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\rames\anaconda3\envs\tf\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\rames\anaconda3\envs\tf\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\rames\anaconda3\envs\tf\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\rames\Desktop\pyapp\app.py", line 89, in get_numbers
+    response = process_request(number_id)
+  File "C:\Users\rames\Desktop\pyapp\app.py", line 59, in process_request
+    numbers = [num for num in numbers if isinstance(num, (int, float))]
+UnboundLocalError: local variable 'numbers' referenced before assignment
